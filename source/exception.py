@@ -15,7 +15,4 @@ class CustomException(Exception):
 
     def __str__(self):
         return self.error_message
-<<<<<<< HEAD
 
-=======
->>>>>>> 175e82483f52167ec3e595e27373dfd5855a10f1
