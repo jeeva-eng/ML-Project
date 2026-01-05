@@ -9,6 +9,7 @@ seaborn==0.13.0
 xgboost==1.7.6
 catboost==1.2.2
 dill==0.3.8
+gunicorn
 -e .
 
 
