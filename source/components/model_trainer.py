@@ -41,8 +41,8 @@ class ModelTrainer:
                 "Decision Tree":DecisionTreeRegressor(),
                 "Linear Regression":LinearRegression(),
                 "K-Neighbors Regressor":KNeighborsRegressor(),
-                "XGBRegressorr":XGBRegressor(),
-                "CatBoosting Classifer":CatBoostRegressor(verbose=False),
+                "XGB Regressor": XGBRegressor(),
+                "CatBoost Regressor": CatBoostRegressor(verbose=False),
                 "AdaBoost Regressor":AdaBoostRegressor(),
             }
             model_report:dict=evaluate_models(X_train=X_train,y_train=y_train,X_test=X_test,y_test=y_test,
