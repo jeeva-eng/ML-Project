@@ -208,7 +208,9 @@ marimo/_lsp/
 __marimo__/
    
 
-artifacts/
+artifacts/*
+!artifacts/*.pkl
+
 catboost_info/
 .venv/
 __pycache__/
