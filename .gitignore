@@ -208,8 +208,6 @@ marimo/_lsp/
 __marimo__/
    
 
-artifacts/*
-!artifacts/*.pkl
 
 catboost_info/
 .venv/
